@@ -7,11 +7,11 @@ public class test {
 
     public static void main(String[] args) {
         ArrayList<MyBook> books = new ArrayList<MyBook>(200);
-        while(menu(books)==0){
+        while(true){
             menu(books);
         }
     }
-    public static int menu(ArrayList<MyBook> books){
+    public static void menu(ArrayList<MyBook> books){
         System.out.println("请输入1~5来进行操作");
         System.out.println("1.添加书籍");
         System.out.println("2.查找书籍");
@@ -64,7 +64,5 @@ public class test {
                     System.exit(0);
                 }
         }
-
-        return 0;
     }
 }
