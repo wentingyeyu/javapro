@@ -7,9 +7,9 @@ public class test {
 
     public static void main(String[] args) {
         ArrayList<MyBook> books = new ArrayList<MyBook>(200);
-         while(menu(books)==0){
-             menu(books);
-         }
+        while(menu(books)==0){
+            menu(books);
+        }
     }
     public static int menu(ArrayList<MyBook> books){
         System.out.println("请输入1~5来进行操作");
@@ -21,56 +21,50 @@ public class test {
         Action action = new Action();
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        if (n<=5&&n>=1){
         switch (n){
             case 1:
                 System.out.print("请输入要添加书籍的数量：");
                 int i = scanner.nextInt();
                 action.inputDate(books,i);
-                System.out.println("输入0，返回上一层;输入其他值，退出系统！");
+                System.out.println("输入0，退出系统！输入其他值，返回主界面");
                 if(scanner.nextInt()==0){
-                    return 0;
-                }else {
                     System.exit(0);
                 }
-            break;
+                break;
             case 2:
                 System.out.print("请输入要查询书籍的名称：");
                 String sName = scanner.next();
                 action.search(books,sName);
-                System.out.println("输入0，返回上一层;输入其他值，退出系统！");
+                System.out.println("输入0，退出系统！输入其他值，返回主界面");
                 if(scanner.nextInt()==0){
-                    return 0;
-                }else {
                     System.exit(0);
                 }
-            break;
+                break;
             case 3:
                 System.out.print("请输入要删除书籍的名称：");
                 String dName = scanner.next();
                 action.deleteName(books,dName);
-                System.out.println("输入0，返回上一层;输入其他值，退出系统！");
+                System.out.println("输入0，退出系统！输入其他值，返回主界面");
                 if(scanner.nextInt()==0){
-                    return 0;
-                }else {
                     System.exit(0);
                 }
-            break;
+                break;
             case 4:
                 action.print(books);
-                System.out.println("输入0，返回上一层;输入其他值，退出系统！");
+                System.out.println("输入0，退出系统！输入其他值，返回主界面");
                 if(scanner.nextInt()==0){
-                    return 0;
-                }else {
                     System.exit(0);
                 }
-            break;
+                break;
             case 5:
-            System.exit(0);
+                System.exit(0);
+            default:
+                System.out.println("输入0，退出系统！输入其他值，返回主界面");
+                if(scanner.nextInt()==0){
+                    System.exit(0);
+                }
         }
-        }else {
-            System.out.println("输入有误！");
-        }
+
         return 0;
     }
 }
