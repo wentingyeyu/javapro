@@ -39,11 +39,7 @@ public class Action {
         }else{
             for(MyBook book:books){
                 System.out.println("第"+(books.indexOf(book)+1)+"本书的全部信息");
-                System.out.println("书名:"+book.getName());
-                System.out.println("书价:"+book.getPrice());
-                System.out.println("出版社:"+book.getPress());
-                System.out.println("作者:"+book.getAuthor());
-                System.out.println("书的ISBN:"+book.getBookISBN());
+                System.out.println(book);
             }
         }
 
@@ -57,11 +53,7 @@ public class Action {
         } else {
             for (MyBook book : books) {
                 if (book.getName().equals(name)) {
-                    System.out.println("书名:" + book.getName());
-                    System.out.println("书价:" + book.getPrice());
-                    System.out.println("出版社:" + book.getPress());
-                    System.out.println("作者:" + book.getAuthor());
-                    System.out.println("书的ISBN:" + book.getBookISBN());
+                    System.out.println(book);
                     break;
                 } else if (books.indexOf(book) == books.size() - 1) {
                     System.out.println("此书不存在！");

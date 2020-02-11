@@ -46,4 +46,13 @@ public class MyBook {
     public void setBookISBN(String bookISBN) {
         this.bookISBN = bookISBN;
     }
+
+    @Override
+    public String toString() {
+        return  "书名：'" + name + '\'' +
+                ", 价格：" + price +
+                ", 出版社：'" + press + '\'' +
+                ", 作者：'" + author + '\'' +
+                ", bookISBN：'" + bookISBN + '\'';
+    }
 }
