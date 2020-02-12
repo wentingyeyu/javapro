@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfdf3702-ee19-4810-accf-f0f13ff67289" name="Default Changelist" comment="简易图书馆优化">
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/ColaEmployee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/HourlyEmployee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/MyTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/MyTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/SalariedEmployee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/SalesEmployee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0205/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice/Basis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice/Basis0205.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice/MyArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/practice0206.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/simpleLibrary/Action.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/simpleLibrary/MyBook.class" afterDir="false" />
+    <list default="true" id="bfdf3702-ee19-4810-accf-f0f13ff67289" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/werewolfKilled/card.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neuedu/simpleLibrary/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/simpleLibrary/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/werewolfKilled/card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/werewolfKilled/card.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +153,8 @@
       <workItem from="1581340181135" duration="480000" />
       <workItem from="1581383810170" duration="3238000" />
       <workItem from="1581406686379" duration="780000" />
+      <workItem from="1581429330526" duration="251000" />
+      <workItem from="1581467153086" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1580978893719</created>
@@ -227,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581387170548</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="狼人杀完成">
+      <created>1581429515470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581429515470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +270,8 @@
     <MESSAGE value="简易图书馆完成" />
     <MESSAGE value="111" />
     <MESSAGE value="简易图书馆优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="简易图书馆优化" />
+    <MESSAGE value="狼人杀完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="狼人杀完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1581386725912">
@@ -289,10 +282,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="467" y="252" width="431" height="230" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1581316900420" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1581429484209">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1581429512609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581429484209" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581429512609" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581321368373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -305,34 +298,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="512" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580978764450" />
-    <state width="1306" height="169" key="GridCell.Tab.0.bottom" timestamp="1581416405288">
+    <state width="1306" height="168" key="GridCell.Tab.0.bottom" timestamp="1581469057322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581416405288" />
-    <state width="1306" height="169" key="GridCell.Tab.0.center" timestamp="1581416405288">
+    <state width="1306" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581469057322" />
+    <state width="1306" height="168" key="GridCell.Tab.0.center" timestamp="1581469057322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581416405288" />
-    <state width="1306" height="169" key="GridCell.Tab.0.left" timestamp="1581416405288">
+    <state width="1306" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581469057322" />
+    <state width="1306" height="168" key="GridCell.Tab.0.left" timestamp="1581469057322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581416405288" />
-    <state width="1306" height="169" key="GridCell.Tab.0.right" timestamp="1581416405288">
+    <state width="1306" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581469057322" />
+    <state width="1306" height="168" key="GridCell.Tab.0.right" timestamp="1581469057322">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581416405288" />
+    <state width="1306" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581469057322" />
+    <state width="1306" height="210" key="GridCell.Tab.1.bottom" timestamp="1581468282278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581468282278" />
+    <state width="1306" height="210" key="GridCell.Tab.1.center" timestamp="1581468282278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581468282278" />
+    <state width="1306" height="210" key="GridCell.Tab.1.left" timestamp="1581468282277">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581468282277" />
+    <state width="1306" height="210" key="GridCell.Tab.1.right" timestamp="1581468282278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="210" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581468282278" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1581316857005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581316857005" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581387178173">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581429572273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581387178173" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1581406685180">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581429572273" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1581467160569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581406685180" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581467160569" />
     <state x="390" y="164" key="git4idea.merge.GitPullDialog" timestamp="1581317449099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

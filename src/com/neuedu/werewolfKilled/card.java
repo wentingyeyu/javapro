@@ -85,10 +85,11 @@ public class card {
         /*
         发牌
          */
-        List<String> thieves=thieve(cards,wereWolf,cards.size());//确定盗贼的三张牌
+        List<String> thieves=thieve(cards,wereWolf);//确定盗贼的三张牌
         //去除盗贼的三张牌后，为每个人发牌
         for(int i=0;i<p;i++){
             int card = (int)(Math.random()*(cards.size()-1));
+            System.out.println(card+"__"+cards.size());
             players.add(cards.get(card));
             cards.remove(card);
         }
@@ -112,30 +113,31 @@ public class card {
     /*
     盗贼的三张牌
      */
-    public static List thieve(List<String> cards,int wereWolf,int c){
+    public static List thieve(List<String> cards,int wereWolf){
         cards.remove("盗贼");//去除盗贼牌
         int w = wereWolf;
         List<String> thieves = new ArrayList<String>();
         for(int i =0;i<3;i++){
-            int choose = (int)(Math.random()*(c-1));//从牌堆随机选择牌
+            int choose = (int)(Math.random()*(cards.size()-1));//从牌堆随机选择牌
             if(cards.get(choose).equals("狼人")){
                 //当出现第一张狼人牌时，放进盗贼数组，并去除牌堆中的狼人牌
                 thieves.add("狼人");
-                c=c-wereWolf;
                 wereWolf--;
-                for(int j=0;j<wereWolf;j++){
+                for(int j=0;j<=wereWolf;j++){
                     cards.remove("狼人");
+                }
+                for(String a:cards){
+                    System.out.println(a+"asdasd");
                 }
                 continue;
             }else{
                 thieves.add(cards.get(choose));
-                c--;
                 cards.remove(choose);
                 continue;
             }
         }
         if(w!=wereWolf){//如果盗贼3张牌中有狼人牌，把去除的狼人牌插入到牌堆的随机位置
-            for(int j=0;j<wereWolf-1;j++){
+            for(int j=0;j<wereWolf;j++){
                 int a=(int)(Math.random()*(cards.size()-1));
                 cards.add(a,"狼人");
             }
