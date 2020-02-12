@@ -1,6 +1,9 @@
 package com.neuedu.simpleLibrary;
 
-public class MyBook {
+import java.io.Serializable;
+
+public class MyBook implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String name;    //书名
     private Double price;   //价格
     private String press;   //出版社
