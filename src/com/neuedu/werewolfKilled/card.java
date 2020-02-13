@@ -123,7 +123,7 @@ public class card {
                 //当出现第一张狼人牌时，放进盗贼数组，并去除牌堆中的狼人牌
                 thieves.add("狼人");
                 wereWolf--;
-                for(int j=0;j<=wereWolf;j++){
+                while(cards.contains("狼人")) {
                     cards.remove("狼人");
                 }
                 for(String a:cards){
