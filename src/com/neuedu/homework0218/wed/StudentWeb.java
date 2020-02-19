@@ -75,8 +75,10 @@ public class StudentWeb {
     public void query(Scanner scanner){
         System.out.print("请输入要查询学生的学号：");
         int no = scanner.nextInt();
-        Student student = studentService.query(no);
-        System.out.println(student);
+        List<Student> list = studentService.query(no);
+        for (Student student:list){
+            System.out.println(student);
+        }
     }
     public void delete(Scanner scanner){
         System.out.print("请输入要删除的学生的学号：");

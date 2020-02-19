@@ -1,16 +1,23 @@
 package com.neuedu.homework0218.model;
 
 public class Student {
+    @StuSql("Sno")
     private Integer no;
+    @StuSql("Sname")
     private String name;
+    @StuSql("Ssex")
     private String sex;
+    @StuSql("Sage")
     private Integer age;
+    @StuSql("Sdept")
     private String dept;
+
+    public Student() {
+    }
 
     public Integer getNo() {
         return no;
     }
-
     @Override
     public String toString() {
         return "Student{" +

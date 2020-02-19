@@ -13,7 +13,7 @@ public class StudentService implements IStudentService {
         return studentDao.selectAll();
     }
     @Override
-    public Student query(int no) {
+    public List<Student>  query(int no) {
         return studentDao.selectOne(no);
     }
 
