@@ -59,8 +59,8 @@ public class JdbcUtil {
                 for(int i=0;i<params.length;i++){
                     pstmt.setObject(i+1,params[i]);
                 }
-                rs = pstmt.executeQuery();
             }
+            rs = pstmt.executeQuery();
             while (rs.next()){
                 T t = clz.newInstance();
                 Field []fields = clz.getDeclaredFields();
@@ -83,6 +83,29 @@ public class JdbcUtil {
             e.printStackTrace();
         }finally {
             close(conn,pstmt,rs);
+        }
+        return list;
+    }
+    public static <T> List<T> excuteQuery(String sql,RowMap<T> rowMap,Object...params){
+        Connection conn = getconnection();
+        List<T> list = new ArrayList<T>();
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        try {
+            pstmt = conn.prepareStatement(sql);
+            if(params!=null)
+            {
+                for(int i=0;i<params.length;i++){
+                    pstmt.setObject(i+1,params[i]);
+                }
+            }
+            rs=pstmt.executeQuery();
+            while (rs.next()){
+                T t = rowMap.rowMaping(rs);
+                list.add(t);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
         return list;
     }

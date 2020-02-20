@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdf3702-ee19-4810-accf-f0f13ff67289" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neuedu/homework0218/dao/StudengDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/homework0218/dao/StudengDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/homework0218/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/homework0218/util/JdbcUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.Practice0220">
     <configuration name="Dao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.neuedu.homework0218.test.Dao" />
       <module name="javapro" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.homework0212.InterfaceTest" />
+    <configuration name="Paixu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.homework0220.Paixu" />
       <module name="javapro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neuedu.homework0212.*" />
+          <option name="PATTERN" value="com.neuedu.homework0220.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TAndLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.homework0213.TAndLock" />
+    <configuration name="Practice0220" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.homework0218.test.Practice0220" />
       <module name="javapro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neuedu.homework0213.*" />
+          <option name="PATTERN" value="com.neuedu.homework0218.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice0220" />
+        <item itemvalue="Application.Paixu" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Dao" />
         <item itemvalue="Application.Hundred" />
-        <item itemvalue="Application.TAndLock" />
-        <item itemvalue="Application.InterfaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,8 @@
       <workItem from="1582003061165" duration="16017000" />
       <workItem from="1582078765540" duration="1439000" />
       <workItem from="1582090154199" duration="9850000" />
-      <workItem from="1582106635361" duration="6606000" />
+      <workItem from="1582106635361" duration="6748000" />
+      <workItem from="1582160494439" duration="7073000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1580978893719</created>
@@ -303,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582099818027</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="数据库增删改查封装（待优化）">
+      <created>1582115801022</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1582115801022</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,13 +371,14 @@
     <MESSAGE value="锁" />
     <MESSAGE value="英文加密解密（异或运算）" />
     <MESSAGE value="但数据库增删改查封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="但数据库增删改查封装" />
+    <MESSAGE value="数据库增删改查封装（待优化）" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库增删改查封装（待优化）" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1582111142596">
+    <state x="440" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1582195283976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="440" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582111142596" />
+    <state x="440" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582195283976" />
     <state x="467" y="252" width="431" height="230" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581316900420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -382,10 +391,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581559285099" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1582099812525">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1582196343861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582099812525" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582196343861" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582003459696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -398,22 +407,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="512" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580978764450" />
-    <state width="1322" height="183" key="GridCell.Tab.0.bottom" timestamp="1582115695001">
+    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1582196267007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582115695001" />
-    <state width="1322" height="183" key="GridCell.Tab.0.center" timestamp="1582115695001">
+    <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582196267007" />
+    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1582196267006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582115695001" />
-    <state width="1322" height="183" key="GridCell.Tab.0.left" timestamp="1582115695000">
+    <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582196267006" />
+    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1582196267006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582115695000" />
-    <state width="1322" height="183" key="GridCell.Tab.0.right" timestamp="1582115695001">
+    <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582196267006" />
+    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1582196267006">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582115695001" />
+    <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582196267006" />
     <state width="1306" height="210" key="GridCell.Tab.1.bottom" timestamp="1581468282278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -434,14 +443,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582003478400" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1582099836533">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1582196351939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582099836533" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1582106667564">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582196351939" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1582160502601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582106667564" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582160502601" />
     <state x="390" y="164" key="git4idea.merge.GitPullDialog" timestamp="1582099825320">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
