@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bfdf3702-ee19-4810-accf-f0f13ff67289" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0218/test/Practice0220$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0218/test/Practice0220.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0218/test/Practice0220.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0218/util/JdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/homework0218/util/JdbcUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/homework0218/test/Practice0220.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/homework0218/test/Practice0220.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/neuedu/homework0218/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/homework0218/util/JdbcUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +187,7 @@
       <workItem from="1582078765540" duration="1439000" />
       <workItem from="1582090154199" duration="9850000" />
       <workItem from="1582106635361" duration="6748000" />
-      <workItem from="1582160494439" duration="7073000" />
+      <workItem from="1582160494439" duration="13393000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1580978893719</created>
@@ -311,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582115801022</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="匿名内部类封装查询">
+      <created>1582196363640</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1582196363641</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +383,8 @@
     <MESSAGE value="英文加密解密（异或运算）" />
     <MESSAGE value="但数据库增删改查封装" />
     <MESSAGE value="数据库增删改查封装（待优化）" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库增删改查封装（待优化）" />
+    <MESSAGE value="匿名内部类封装查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="匿名内部类封装查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1582195283976">
@@ -391,10 +403,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581559285099" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1582196343861">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1582196361458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582196343861" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582196361458" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1582003459696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -407,22 +419,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="512" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580978764450" />
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1582196267007">
+    <state width="1322" height="332" key="GridCell.Tab.0.bottom" timestamp="1582203489010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582196267007" />
-    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1582196267006">
+    <state width="1322" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582203489010" />
+    <state width="1322" height="332" key="GridCell.Tab.0.center" timestamp="1582203489009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582196267006" />
-    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1582196267006">
+    <state width="1322" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582203489009" />
+    <state width="1322" height="332" key="GridCell.Tab.0.left" timestamp="1582203489009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582196267006" />
-    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1582196267006">
+    <state width="1322" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582203489009" />
+    <state width="1322" height="332" key="GridCell.Tab.0.right" timestamp="1582203489010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582196267006" />
+    <state width="1322" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582203489010" />
     <state width="1306" height="210" key="GridCell.Tab.1.bottom" timestamp="1581468282278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -443,10 +455,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582003478400" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1582196351939">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1582196371941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582196351939" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582196371941" />
     <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1582160502601">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -467,10 +479,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581591907944" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582024483569">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582200817946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582024483569" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582200817946" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,7 +18,7 @@ public class JdbcUtil {
             e.printStackTrace();
         }
     }
-    static Connection getconnection(){
+    public static Connection getconnection(){
         Connection conn = null;
         try {
             conn= DriverManager.getConnection(URl,USERNAME,PASSWORD);
